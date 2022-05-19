@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+    top: 100px;
+    margin: 0 auto;
+    position: relative;
+    width: 80%;
+}
+.contenedor__slider{
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    margin: 0 auto;
+    scroll-behavior: smooth;
+    height: 250px;
+}
+
+.img__slider{
+    height: 100%;
+    margin: 0 5px;
+}
+.img__slider:hover{
+    border: 2px solid black;
+}
+.button__slider{
+    background: none;
+    border: none;
+    position: absolute;
+    top: 43%;
+    cursor: pointer;
+}
+.button__slider--left{
+    left: -35px;
+}
+.button__slider--right{
+    right: -35px;
+}
